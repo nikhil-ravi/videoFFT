@@ -1,8 +1,17 @@
 VideoFFT
 ---
-
 A simple python package to read a video file and perform the FFT operation on the time series of each pixel across the frames in the video.
 
+
+Installation
+---
+Install the package using the following command:
+```
+pip install https://github.com/nikhil-ravi/videoFFT/archive/refs/heads/main.zip
+```
+
+Usage
+---
 The package may be used as follows:
 ```python
 from VideoFFT import VideoFFT
