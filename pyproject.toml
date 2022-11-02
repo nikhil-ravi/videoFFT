@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "VideoFFT"
+version = "0.0.1"
+authors = [
+  { name="Nikhil Ravi", email="nr337@cornell.edu" },
+]
+description = "A simple python package to read a video file and perform the FFT operation on the time series of each pixel across the frames in the video."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/nikhil-ravi/videoFFT"
+"Bug Tracker" = "https://github.com/nikhil-ravi/videoFFT/issues"
